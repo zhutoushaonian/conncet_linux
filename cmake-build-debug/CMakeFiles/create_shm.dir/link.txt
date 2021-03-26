@@ -1,0 +1,3 @@
+"D:\Program Files\CLion-2020.3.3.win\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\create_shm.dir/objects.a
+"D:\Program Files\mingw64\bin\ar.exe" cr CMakeFiles\create_shm.dir/objects.a @CMakeFiles\create_shm.dir\objects1.rsp
+"D:\Program Files\mingw64\bin\gcc.exe" -g   -Wl,--whole-archive CMakeFiles\create_shm.dir/objects.a -Wl,--no-whole-archive  -o create_shm.exe -Wl,--out-implib,libcreate_shm.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\create_shm.dir\linklibs.rsp
