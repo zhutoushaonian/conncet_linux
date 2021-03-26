@@ -1,3 +1,7 @@
 D:/Program/conncet_linux/cmake-build-debug/CMakeFiles/chapter1_0_ls.dir
+D:/Program/conncet_linux/cmake-build-debug/CMakeFiles/chapter1_3_thread.dir
+D:/Program/conncet_linux/cmake-build-debug/CMakeFiles/chapter1_1_file.dir
+D:/Program/conncet_linux/cmake-build-debug/CMakeFiles/chapter1_2_file.dir
+D:/Program/conncet_linux/cmake-build-debug/CMakeFiles/chapter1_4_errno.dir
 D:/Program/conncet_linux/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Program/conncet_linux/cmake-build-debug/CMakeFiles/rebuild_cache.dir

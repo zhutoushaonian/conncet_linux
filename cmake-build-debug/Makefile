@@ -142,6 +142,58 @@ chapter1_0_ls/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_0_ls.dir\build.make CMakeFiles/chapter1_0_ls.dir/build
 .PHONY : chapter1_0_ls/fast
 
+#=============================================================================
+# Target rules for targets named chapter1_3_thread
+
+# Build rule for target.
+chapter1_3_thread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 chapter1_3_thread
+.PHONY : chapter1_3_thread
+
+# fast build rule for target.
+chapter1_3_thread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_3_thread.dir\build.make CMakeFiles/chapter1_3_thread.dir/build
+.PHONY : chapter1_3_thread/fast
+
+#=============================================================================
+# Target rules for targets named chapter1_1_file
+
+# Build rule for target.
+chapter1_1_file: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 chapter1_1_file
+.PHONY : chapter1_1_file
+
+# fast build rule for target.
+chapter1_1_file/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_1_file.dir\build.make CMakeFiles/chapter1_1_file.dir/build
+.PHONY : chapter1_1_file/fast
+
+#=============================================================================
+# Target rules for targets named chapter1_2_file
+
+# Build rule for target.
+chapter1_2_file: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 chapter1_2_file
+.PHONY : chapter1_2_file
+
+# fast build rule for target.
+chapter1_2_file/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_2_file.dir\build.make CMakeFiles/chapter1_2_file.dir/build
+.PHONY : chapter1_2_file/fast
+
+#=============================================================================
+# Target rules for targets named chapter1_4_errno
+
+# Build rule for target.
+chapter1_4_errno: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 chapter1_4_errno
+.PHONY : chapter1_4_errno
+
+# fast build rule for target.
+chapter1_4_errno/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_4_errno.dir\build.make CMakeFiles/chapter1_4_errno.dir/build
+.PHONY : chapter1_4_errno/fast
+
 unix_programing/chapter1/0_ls.obj: unix_programing/chapter1/0_ls.c.obj
 
 .PHONY : unix_programing/chapter1/0_ls.obj
@@ -169,6 +221,114 @@ unix_programing/chapter1/0_ls.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_0_ls.dir\build.make CMakeFiles/chapter1_0_ls.dir/unix_programing/chapter1/0_ls.c.s
 .PHONY : unix_programing/chapter1/0_ls.c.s
 
+unix_programing/chapter1/1_file.obj: unix_programing/chapter1/1_file.c.obj
+
+.PHONY : unix_programing/chapter1/1_file.obj
+
+# target to build an object file
+unix_programing/chapter1/1_file.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_1_file.dir\build.make CMakeFiles/chapter1_1_file.dir/unix_programing/chapter1/1_file.c.obj
+.PHONY : unix_programing/chapter1/1_file.c.obj
+
+unix_programing/chapter1/1_file.i: unix_programing/chapter1/1_file.c.i
+
+.PHONY : unix_programing/chapter1/1_file.i
+
+# target to preprocess a source file
+unix_programing/chapter1/1_file.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_1_file.dir\build.make CMakeFiles/chapter1_1_file.dir/unix_programing/chapter1/1_file.c.i
+.PHONY : unix_programing/chapter1/1_file.c.i
+
+unix_programing/chapter1/1_file.s: unix_programing/chapter1/1_file.c.s
+
+.PHONY : unix_programing/chapter1/1_file.s
+
+# target to generate assembly for a file
+unix_programing/chapter1/1_file.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_1_file.dir\build.make CMakeFiles/chapter1_1_file.dir/unix_programing/chapter1/1_file.c.s
+.PHONY : unix_programing/chapter1/1_file.c.s
+
+unix_programing/chapter1/2_file.obj: unix_programing/chapter1/2_file.c.obj
+
+.PHONY : unix_programing/chapter1/2_file.obj
+
+# target to build an object file
+unix_programing/chapter1/2_file.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_2_file.dir\build.make CMakeFiles/chapter1_2_file.dir/unix_programing/chapter1/2_file.c.obj
+.PHONY : unix_programing/chapter1/2_file.c.obj
+
+unix_programing/chapter1/2_file.i: unix_programing/chapter1/2_file.c.i
+
+.PHONY : unix_programing/chapter1/2_file.i
+
+# target to preprocess a source file
+unix_programing/chapter1/2_file.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_2_file.dir\build.make CMakeFiles/chapter1_2_file.dir/unix_programing/chapter1/2_file.c.i
+.PHONY : unix_programing/chapter1/2_file.c.i
+
+unix_programing/chapter1/2_file.s: unix_programing/chapter1/2_file.c.s
+
+.PHONY : unix_programing/chapter1/2_file.s
+
+# target to generate assembly for a file
+unix_programing/chapter1/2_file.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_2_file.dir\build.make CMakeFiles/chapter1_2_file.dir/unix_programing/chapter1/2_file.c.s
+.PHONY : unix_programing/chapter1/2_file.c.s
+
+unix_programing/chapter1/3_thread.obj: unix_programing/chapter1/3_thread.c.obj
+
+.PHONY : unix_programing/chapter1/3_thread.obj
+
+# target to build an object file
+unix_programing/chapter1/3_thread.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_3_thread.dir\build.make CMakeFiles/chapter1_3_thread.dir/unix_programing/chapter1/3_thread.c.obj
+.PHONY : unix_programing/chapter1/3_thread.c.obj
+
+unix_programing/chapter1/3_thread.i: unix_programing/chapter1/3_thread.c.i
+
+.PHONY : unix_programing/chapter1/3_thread.i
+
+# target to preprocess a source file
+unix_programing/chapter1/3_thread.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_3_thread.dir\build.make CMakeFiles/chapter1_3_thread.dir/unix_programing/chapter1/3_thread.c.i
+.PHONY : unix_programing/chapter1/3_thread.c.i
+
+unix_programing/chapter1/3_thread.s: unix_programing/chapter1/3_thread.c.s
+
+.PHONY : unix_programing/chapter1/3_thread.s
+
+# target to generate assembly for a file
+unix_programing/chapter1/3_thread.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_3_thread.dir\build.make CMakeFiles/chapter1_3_thread.dir/unix_programing/chapter1/3_thread.c.s
+.PHONY : unix_programing/chapter1/3_thread.c.s
+
+unix_programing/chapter1/4_errno.obj: unix_programing/chapter1/4_errno.c.obj
+
+.PHONY : unix_programing/chapter1/4_errno.obj
+
+# target to build an object file
+unix_programing/chapter1/4_errno.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_4_errno.dir\build.make CMakeFiles/chapter1_4_errno.dir/unix_programing/chapter1/4_errno.c.obj
+.PHONY : unix_programing/chapter1/4_errno.c.obj
+
+unix_programing/chapter1/4_errno.i: unix_programing/chapter1/4_errno.c.i
+
+.PHONY : unix_programing/chapter1/4_errno.i
+
+# target to preprocess a source file
+unix_programing/chapter1/4_errno.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_4_errno.dir\build.make CMakeFiles/chapter1_4_errno.dir/unix_programing/chapter1/4_errno.c.i
+.PHONY : unix_programing/chapter1/4_errno.c.i
+
+unix_programing/chapter1/4_errno.s: unix_programing/chapter1/4_errno.c.s
+
+.PHONY : unix_programing/chapter1/4_errno.s
+
+# target to generate assembly for a file
+unix_programing/chapter1/4_errno.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_4_errno.dir\build.make CMakeFiles/chapter1_4_errno.dir/unix_programing/chapter1/4_errno.c.s
+.PHONY : unix_programing/chapter1/4_errno.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -178,9 +338,25 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... chapter1_0_ls
+	@echo ... chapter1_1_file
+	@echo ... chapter1_2_file
+	@echo ... chapter1_3_thread
+	@echo ... chapter1_4_errno
 	@echo ... unix_programing/chapter1/0_ls.obj
 	@echo ... unix_programing/chapter1/0_ls.i
 	@echo ... unix_programing/chapter1/0_ls.s
+	@echo ... unix_programing/chapter1/1_file.obj
+	@echo ... unix_programing/chapter1/1_file.i
+	@echo ... unix_programing/chapter1/1_file.s
+	@echo ... unix_programing/chapter1/2_file.obj
+	@echo ... unix_programing/chapter1/2_file.i
+	@echo ... unix_programing/chapter1/2_file.s
+	@echo ... unix_programing/chapter1/3_thread.obj
+	@echo ... unix_programing/chapter1/3_thread.i
+	@echo ... unix_programing/chapter1/3_thread.s
+	@echo ... unix_programing/chapter1/4_errno.obj
+	@echo ... unix_programing/chapter1/4_errno.i
+	@echo ... unix_programing/chapter1/4_errno.s
 .PHONY : help
 
 

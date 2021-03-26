@@ -54,4 +54,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/chapter1_0_ls.dir/DependInfo.cmake"
+  "CMakeFiles/chapter1_3_thread.dir/DependInfo.cmake"
+  "CMakeFiles/chapter1_1_file.dir/DependInfo.cmake"
+  "CMakeFiles/chapter1_2_file.dir/DependInfo.cmake"
+  "CMakeFiles/chapter1_4_errno.dir/DependInfo.cmake"
   )
