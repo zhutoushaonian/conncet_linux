@@ -72,11 +72,19 @@ CMAKE_BINARY_DIR = D:\Program\conncet_linux\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/chapter1_0_ls.dir/all
-all: CMakeFiles/chapter1_3_thread.dir/all
-all: CMakeFiles/chapter1_1_file.dir/all
-all: CMakeFiles/chapter1_2_file.dir/all
-all: CMakeFiles/chapter1_4_errno.dir/all
+all: CMakeFiles/0_shm.dir/all
+all: CMakeFiles/0_ls.dir/all
+all: CMakeFiles/1_shm.dir/all
+all: CMakeFiles/3_write_shm.dir/all
+all: CMakeFiles/2_create_shm.dir/all
+all: CMakeFiles/3_thread.dir/all
+all: CMakeFiles/1_file.dir/all
+all: CMakeFiles/4_errno.dir/all
+all: CMakeFiles/6_signal.dir/all
+all: CMakeFiles/0_mode_file.dir/all
+all: CMakeFiles/1_access.dir/all
+all: CMakeFiles/3_umask.dir/all
+all: CMakeFiles/0_file_read_write.dir/all
 
 .PHONY : all
 
@@ -86,148 +94,372 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/chapter1_0_ls.dir/clean
-clean: CMakeFiles/chapter1_3_thread.dir/clean
-clean: CMakeFiles/chapter1_1_file.dir/clean
-clean: CMakeFiles/chapter1_2_file.dir/clean
-clean: CMakeFiles/chapter1_4_errno.dir/clean
+clean: CMakeFiles/0_shm.dir/clean
+clean: CMakeFiles/0_ls.dir/clean
+clean: CMakeFiles/1_shm.dir/clean
+clean: CMakeFiles/3_write_shm.dir/clean
+clean: CMakeFiles/2_create_shm.dir/clean
+clean: CMakeFiles/3_thread.dir/clean
+clean: CMakeFiles/1_file.dir/clean
+clean: CMakeFiles/4_errno.dir/clean
+clean: CMakeFiles/6_signal.dir/clean
+clean: CMakeFiles/0_mode_file.dir/clean
+clean: CMakeFiles/1_access.dir/clean
+clean: CMakeFiles/3_umask.dir/clean
+clean: CMakeFiles/0_file_read_write.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/chapter1_0_ls.dir
+# Target rules for target CMakeFiles/0_shm.dir
 
 # All Build rule for target.
-CMakeFiles/chapter1_0_ls.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_0_ls.dir\build.make CMakeFiles/chapter1_0_ls.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_0_ls.dir\build.make CMakeFiles/chapter1_0_ls.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target chapter1_0_ls"
-.PHONY : CMakeFiles/chapter1_0_ls.dir/all
+CMakeFiles/0_shm.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0_shm.dir\build.make CMakeFiles/0_shm.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0_shm.dir\build.make CMakeFiles/0_shm.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 0_shm"
+.PHONY : CMakeFiles/0_shm.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/chapter1_0_ls.dir/rule: cmake_check_build_system
+CMakeFiles/0_shm.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/chapter1_0_ls.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/0_shm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/chapter1_0_ls.dir/rule
+.PHONY : CMakeFiles/0_shm.dir/rule
 
 # Convenience name for target.
-chapter1_0_ls: CMakeFiles/chapter1_0_ls.dir/rule
+0_shm: CMakeFiles/0_shm.dir/rule
 
-.PHONY : chapter1_0_ls
+.PHONY : 0_shm
 
 # clean rule for target.
-CMakeFiles/chapter1_0_ls.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_0_ls.dir\build.make CMakeFiles/chapter1_0_ls.dir/clean
-.PHONY : CMakeFiles/chapter1_0_ls.dir/clean
+CMakeFiles/0_shm.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0_shm.dir\build.make CMakeFiles/0_shm.dir/clean
+.PHONY : CMakeFiles/0_shm.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/chapter1_3_thread.dir
+# Target rules for target CMakeFiles/0_ls.dir
 
 # All Build rule for target.
-CMakeFiles/chapter1_3_thread.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_3_thread.dir\build.make CMakeFiles/chapter1_3_thread.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_3_thread.dir\build.make CMakeFiles/chapter1_3_thread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target chapter1_3_thread"
-.PHONY : CMakeFiles/chapter1_3_thread.dir/all
+CMakeFiles/0_ls.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0_ls.dir\build.make CMakeFiles/0_ls.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0_ls.dir\build.make CMakeFiles/0_ls.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target 0_ls"
+.PHONY : CMakeFiles/0_ls.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/chapter1_3_thread.dir/rule: cmake_check_build_system
+CMakeFiles/0_ls.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/chapter1_3_thread.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/0_ls.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/chapter1_3_thread.dir/rule
+.PHONY : CMakeFiles/0_ls.dir/rule
 
 # Convenience name for target.
-chapter1_3_thread: CMakeFiles/chapter1_3_thread.dir/rule
+0_ls: CMakeFiles/0_ls.dir/rule
 
-.PHONY : chapter1_3_thread
+.PHONY : 0_ls
 
 # clean rule for target.
-CMakeFiles/chapter1_3_thread.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_3_thread.dir\build.make CMakeFiles/chapter1_3_thread.dir/clean
-.PHONY : CMakeFiles/chapter1_3_thread.dir/clean
+CMakeFiles/0_ls.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0_ls.dir\build.make CMakeFiles/0_ls.dir/clean
+.PHONY : CMakeFiles/0_ls.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/chapter1_1_file.dir
+# Target rules for target CMakeFiles/1_shm.dir
 
 # All Build rule for target.
-CMakeFiles/chapter1_1_file.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_1_file.dir\build.make CMakeFiles/chapter1_1_file.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_1_file.dir\build.make CMakeFiles/chapter1_1_file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target chapter1_1_file"
-.PHONY : CMakeFiles/chapter1_1_file.dir/all
+CMakeFiles/1_shm.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_shm.dir\build.make CMakeFiles/1_shm.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_shm.dir\build.make CMakeFiles/1_shm.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 1_shm"
+.PHONY : CMakeFiles/1_shm.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/chapter1_1_file.dir/rule: cmake_check_build_system
+CMakeFiles/1_shm.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/chapter1_1_file.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1_shm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/chapter1_1_file.dir/rule
+.PHONY : CMakeFiles/1_shm.dir/rule
 
 # Convenience name for target.
-chapter1_1_file: CMakeFiles/chapter1_1_file.dir/rule
+1_shm: CMakeFiles/1_shm.dir/rule
 
-.PHONY : chapter1_1_file
+.PHONY : 1_shm
 
 # clean rule for target.
-CMakeFiles/chapter1_1_file.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_1_file.dir\build.make CMakeFiles/chapter1_1_file.dir/clean
-.PHONY : CMakeFiles/chapter1_1_file.dir/clean
+CMakeFiles/1_shm.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_shm.dir\build.make CMakeFiles/1_shm.dir/clean
+.PHONY : CMakeFiles/1_shm.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/chapter1_2_file.dir
+# Target rules for target CMakeFiles/3_write_shm.dir
 
 # All Build rule for target.
-CMakeFiles/chapter1_2_file.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_2_file.dir\build.make CMakeFiles/chapter1_2_file.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_2_file.dir\build.make CMakeFiles/chapter1_2_file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target chapter1_2_file"
-.PHONY : CMakeFiles/chapter1_2_file.dir/all
+CMakeFiles/3_write_shm.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_write_shm.dir\build.make CMakeFiles/3_write_shm.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_write_shm.dir\build.make CMakeFiles/3_write_shm.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target 3_write_shm"
+.PHONY : CMakeFiles/3_write_shm.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/chapter1_2_file.dir/rule: cmake_check_build_system
+CMakeFiles/3_write_shm.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/chapter1_2_file.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/3_write_shm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/chapter1_2_file.dir/rule
+.PHONY : CMakeFiles/3_write_shm.dir/rule
 
 # Convenience name for target.
-chapter1_2_file: CMakeFiles/chapter1_2_file.dir/rule
+3_write_shm: CMakeFiles/3_write_shm.dir/rule
 
-.PHONY : chapter1_2_file
+.PHONY : 3_write_shm
 
 # clean rule for target.
-CMakeFiles/chapter1_2_file.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_2_file.dir\build.make CMakeFiles/chapter1_2_file.dir/clean
-.PHONY : CMakeFiles/chapter1_2_file.dir/clean
+CMakeFiles/3_write_shm.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_write_shm.dir\build.make CMakeFiles/3_write_shm.dir/clean
+.PHONY : CMakeFiles/3_write_shm.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/chapter1_4_errno.dir
+# Target rules for target CMakeFiles/2_create_shm.dir
 
 # All Build rule for target.
-CMakeFiles/chapter1_4_errno.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_4_errno.dir\build.make CMakeFiles/chapter1_4_errno.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_4_errno.dir\build.make CMakeFiles/chapter1_4_errno.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target chapter1_4_errno"
-.PHONY : CMakeFiles/chapter1_4_errno.dir/all
+CMakeFiles/2_create_shm.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_create_shm.dir\build.make CMakeFiles/2_create_shm.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_create_shm.dir\build.make CMakeFiles/2_create_shm.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 2_create_shm"
+.PHONY : CMakeFiles/2_create_shm.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/chapter1_4_errno.dir/rule: cmake_check_build_system
+CMakeFiles/2_create_shm.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/chapter1_4_errno.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2_create_shm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/chapter1_4_errno.dir/rule
+.PHONY : CMakeFiles/2_create_shm.dir/rule
 
 # Convenience name for target.
-chapter1_4_errno: CMakeFiles/chapter1_4_errno.dir/rule
+2_create_shm: CMakeFiles/2_create_shm.dir/rule
 
-.PHONY : chapter1_4_errno
+.PHONY : 2_create_shm
 
 # clean rule for target.
-CMakeFiles/chapter1_4_errno.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chapter1_4_errno.dir\build.make CMakeFiles/chapter1_4_errno.dir/clean
-.PHONY : CMakeFiles/chapter1_4_errno.dir/clean
+CMakeFiles/2_create_shm.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_create_shm.dir\build.make CMakeFiles/2_create_shm.dir/clean
+.PHONY : CMakeFiles/2_create_shm.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/3_thread.dir
+
+# All Build rule for target.
+CMakeFiles/3_thread.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_thread.dir\build.make CMakeFiles/3_thread.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_thread.dir\build.make CMakeFiles/3_thread.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 3_thread"
+.PHONY : CMakeFiles/3_thread.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/3_thread.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/3_thread.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/3_thread.dir/rule
+
+# Convenience name for target.
+3_thread: CMakeFiles/3_thread.dir/rule
+
+.PHONY : 3_thread
+
+# clean rule for target.
+CMakeFiles/3_thread.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_thread.dir\build.make CMakeFiles/3_thread.dir/clean
+.PHONY : CMakeFiles/3_thread.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1_file.dir
+
+# All Build rule for target.
+CMakeFiles/1_file.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_file.dir\build.make CMakeFiles/1_file.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_file.dir\build.make CMakeFiles/1_file.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 1_file"
+.PHONY : CMakeFiles/1_file.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1_file.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1_file.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/1_file.dir/rule
+
+# Convenience name for target.
+1_file: CMakeFiles/1_file.dir/rule
+
+.PHONY : 1_file
+
+# clean rule for target.
+CMakeFiles/1_file.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_file.dir\build.make CMakeFiles/1_file.dir/clean
+.PHONY : CMakeFiles/1_file.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/4_errno.dir
+
+# All Build rule for target.
+CMakeFiles/4_errno.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_errno.dir\build.make CMakeFiles/4_errno.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_errno.dir\build.make CMakeFiles/4_errno.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target 4_errno"
+.PHONY : CMakeFiles/4_errno.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/4_errno.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/4_errno.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/4_errno.dir/rule
+
+# Convenience name for target.
+4_errno: CMakeFiles/4_errno.dir/rule
+
+.PHONY : 4_errno
+
+# clean rule for target.
+CMakeFiles/4_errno.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_errno.dir\build.make CMakeFiles/4_errno.dir/clean
+.PHONY : CMakeFiles/4_errno.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/6_signal.dir
+
+# All Build rule for target.
+CMakeFiles/6_signal.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_signal.dir\build.make CMakeFiles/6_signal.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_signal.dir\build.make CMakeFiles/6_signal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target 6_signal"
+.PHONY : CMakeFiles/6_signal.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/6_signal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/6_signal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/6_signal.dir/rule
+
+# Convenience name for target.
+6_signal: CMakeFiles/6_signal.dir/rule
+
+.PHONY : 6_signal
+
+# clean rule for target.
+CMakeFiles/6_signal.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_signal.dir\build.make CMakeFiles/6_signal.dir/clean
+.PHONY : CMakeFiles/6_signal.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/0_mode_file.dir
+
+# All Build rule for target.
+CMakeFiles/0_mode_file.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0_mode_file.dir\build.make CMakeFiles/0_mode_file.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0_mode_file.dir\build.make CMakeFiles/0_mode_file.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 0_mode_file"
+.PHONY : CMakeFiles/0_mode_file.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/0_mode_file.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/0_mode_file.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/0_mode_file.dir/rule
+
+# Convenience name for target.
+0_mode_file: CMakeFiles/0_mode_file.dir/rule
+
+.PHONY : 0_mode_file
+
+# clean rule for target.
+CMakeFiles/0_mode_file.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0_mode_file.dir\build.make CMakeFiles/0_mode_file.dir/clean
+.PHONY : CMakeFiles/0_mode_file.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1_access.dir
+
+# All Build rule for target.
+CMakeFiles/1_access.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_access.dir\build.make CMakeFiles/1_access.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_access.dir\build.make CMakeFiles/1_access.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 1_access"
+.PHONY : CMakeFiles/1_access.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1_access.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1_access.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/1_access.dir/rule
+
+# Convenience name for target.
+1_access: CMakeFiles/1_access.dir/rule
+
+.PHONY : 1_access
+
+# clean rule for target.
+CMakeFiles/1_access.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_access.dir\build.make CMakeFiles/1_access.dir/clean
+.PHONY : CMakeFiles/1_access.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/3_umask.dir
+
+# All Build rule for target.
+CMakeFiles/3_umask.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_umask.dir\build.make CMakeFiles/3_umask.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_umask.dir\build.make CMakeFiles/3_umask.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target 3_umask"
+.PHONY : CMakeFiles/3_umask.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/3_umask.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/3_umask.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/3_umask.dir/rule
+
+# Convenience name for target.
+3_umask: CMakeFiles/3_umask.dir/rule
+
+.PHONY : 3_umask
+
+# clean rule for target.
+CMakeFiles/3_umask.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_umask.dir\build.make CMakeFiles/3_umask.dir/clean
+.PHONY : CMakeFiles/3_umask.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/0_file_read_write.dir
+
+# All Build rule for target.
+CMakeFiles/0_file_read_write.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0_file_read_write.dir\build.make CMakeFiles/0_file_read_write.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0_file_read_write.dir\build.make CMakeFiles/0_file_read_write.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Program\conncet_linux\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 0_file_read_write"
+.PHONY : CMakeFiles/0_file_read_write.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/0_file_read_write.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/0_file_read_write.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Program\conncet_linux\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/0_file_read_write.dir/rule
+
+# Convenience name for target.
+0_file_read_write: CMakeFiles/0_file_read_write.dir/rule
+
+.PHONY : 0_file_read_write
+
+# clean rule for target.
+CMakeFiles/0_file_read_write.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0_file_read_write.dir\build.make CMakeFiles/0_file_read_write.dir/clean
+.PHONY : CMakeFiles/0_file_read_write.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

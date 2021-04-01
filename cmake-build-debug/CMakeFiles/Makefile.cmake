@@ -53,9 +53,17 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/chapter1_0_ls.dir/DependInfo.cmake"
-  "CMakeFiles/chapter1_3_thread.dir/DependInfo.cmake"
-  "CMakeFiles/chapter1_1_file.dir/DependInfo.cmake"
-  "CMakeFiles/chapter1_2_file.dir/DependInfo.cmake"
-  "CMakeFiles/chapter1_4_errno.dir/DependInfo.cmake"
+  "CMakeFiles/0_shm.dir/DependInfo.cmake"
+  "CMakeFiles/0_ls.dir/DependInfo.cmake"
+  "CMakeFiles/1_shm.dir/DependInfo.cmake"
+  "CMakeFiles/3_write_shm.dir/DependInfo.cmake"
+  "CMakeFiles/2_create_shm.dir/DependInfo.cmake"
+  "CMakeFiles/3_thread.dir/DependInfo.cmake"
+  "CMakeFiles/1_file.dir/DependInfo.cmake"
+  "CMakeFiles/4_errno.dir/DependInfo.cmake"
+  "CMakeFiles/6_signal.dir/DependInfo.cmake"
+  "CMakeFiles/0_mode_file.dir/DependInfo.cmake"
+  "CMakeFiles/1_access.dir/DependInfo.cmake"
+  "CMakeFiles/3_umask.dir/DependInfo.cmake"
+  "CMakeFiles/0_file_read_write.dir/DependInfo.cmake"
   )
